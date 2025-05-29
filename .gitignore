@@ -1,36 +1,4 @@
-# Dependencies
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Environment variables
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# Build outputs
-dist/
-build/
-.vercel/
-
-# Database
-*.db
-*.sqlite
-
-# Logs
-logs/
-*.log
-
-# Runtime data
-pids/
-*.pid
-*.seed
-*.pid.lock
-
-# OS generated files
+# Operating System Files
 .DS_Store
 .DS_Store?
 ._*
@@ -39,12 +7,43 @@ pids/
 ehthumbs.db
 Thumbs.db
 
-# IDE
+# IDE and Editor Files
 .vscode/
 .idea/
 *.swp
 *.swo
+*~
 
-# Temporary files
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary Files
 *.tmp
 *.temp
+
+# Node.js (if you add build tools later)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs (if you add build tools)
+dist/
+build/
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Cache
+.cache/
+
+# Backup files
+*.bak
+*.backup
