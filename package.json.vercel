@@ -1,0 +1,35 @@
+{
+  "_comment": "Optimized package.json for Vercel deployment of Shishir Kandel's Portfolio",
+  "_description": "This configuration builds the React portfolio as a static site for Vercel hosting",
+  "name": "shishir-portfolio-website",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "_comment": "Build scripts optimized for Vercel deployment",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "vercel-build": "vite build"
+  },
+  "dependencies": {
+    "_comment": "Essential dependencies for the portfolio website",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "wouter": "^3.3.5",
+    "lucide-react": "^0.263.1",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.3.0"
+  },
+  "devDependencies": {
+    "_comment": "Development tools - Vite is the build tool for fast compilation",
+    "@vitejs/plugin-react": "^4.0.3",
+    "vite": "^4.4.5",
+    "tailwindcss": "^3.3.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "typescript": "^5.0.2",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7"
+  }
+}
